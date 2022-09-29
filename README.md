@@ -28,9 +28,6 @@ and `255.255.128.128` is **not** a valid mask.<br>
 <br>
 In order to have the ability to send packages between two IP-addresses they either need to be part of the same network or they need to be connected by a router which is part of both subnets.
 
-
-[back to contents](https://github.com/tblaase/Net_Practice#contents)
-
 ## Special IP-ranges
 
 The following special address-ranges are reserved for Private Networks:<br>
@@ -43,9 +40,6 @@ The following address-range is reserved for so called loopback addresses:<br>
 
 
 There is some more special ip-ranges, but for this project, you only need to remember those above.
-
-
-[back to contents](https://github.com/tblaase/Net_Practice#contents)
 
 ## Masks
 
@@ -80,13 +74,10 @@ broadcast: `190.3.2.255`<br>
 usable IP's: `190.3.2.253`, `190.3.2.254`
 
 
-[back to contents](https://github.com/tblaase/Net_Practice#contents)
-
 ## Switches
 
 A switch will enable you to connect more than two devices to the same network.<br>
 It's only purpose is to distribute packages to its network.<br>
-To see a working example, you can take a look at [Level 3](https://github.com/tblaase/Net_Practice/blob/main/my_solutions/Level_3.png).<br>
 
 ## Routers
 
@@ -95,7 +86,6 @@ A router has the ability to be part of multiple networks, in Netpractice this is
 If routers and switches are still magic to you, i suggest looking deeper [into it](https://www.youtube.com/watch?v=Vc16CCAAz7Q) yourself, as their basic understanding is crucial to succeed in this project.
 
 
-[back to contents](https://github.com/tblaase/Net_Practice#contents)
 
 ## Routing Table
 
@@ -109,7 +99,6 @@ The **destination** consists of the network-address that you want to send a pack
 The **next hop** is the address of the next router that you need to send the packages to in order to reach the destination-network.<br>
 
 
-[back to contents](https://github.com/tblaase/Net_Practice#contents)
 
 ## Network
 
